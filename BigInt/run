@@ -1,0 +1,3 @@
+nasm -f elf BigInt.asm -g
+ld -m elf_i386 BigInt.o -o BigInt
+./BigInt
